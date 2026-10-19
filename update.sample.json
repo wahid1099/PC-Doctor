@@ -1,0 +1,8 @@
+{
+  "version": "1.3.0",
+  "url": "https://your-host.example/pcdoctor/PCDoctor-1.3.0.exe",
+  "sha256": "PUT_SHA256_OF_THE_EXE_HERE",
+  "notes": "What changed in this version",
+  "fixesUrl": "https://your-host.example/pcdoctor/fixes.json",
+  "fixesSha256": "PUT_SHA256_OF_FIXES_JSON_HERE"
+}

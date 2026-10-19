@@ -1,0 +1,8 @@
+[
+  { "id": "store", "title": "Reset Microsoft Store cache", "desc": "Clears the Store cache when apps will not download or update.",
+    "keys": "store|app.*(download|install)|microsoft store",
+    "steps": [ { "log": "Resetting Store cache..." }, { "cmd": "wsreset.exe" } ] },
+  { "id": "explorer", "title": "Restart Windows Explorer", "desc": "Fixes a frozen taskbar, Start menu or desktop.",
+    "keys": "taskbar|start menu|desktop|explorer|frozen",
+    "steps": [ { "cmd": "taskkill /f /im explorer.exe" }, { "open": "explorer.exe" } ] }
+]

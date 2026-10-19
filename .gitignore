@@ -1,0 +1,16 @@
+# Build and publish output
+bin/
+obj/
+dist/
+artifacts/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test and diagnostic output
+TestResults/
+*.log
